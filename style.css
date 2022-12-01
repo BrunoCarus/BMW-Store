@@ -424,3 +424,32 @@ body .options .option .label .info .main {
 body .options .option .label .info .sub {
   transition-delay: 0.1s;
 }
+
+.circulo1 {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  top: 0;
+  left: 0;
+  clip-path: circle(500px at left 500px);
+
+  z-index: -1;
+
+}
+
+.circulo2 {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  top: 0;
+  left: 0;
+  clip-path: circle(500px at right 500px);
+
+  z-index: -1;
+
+}
+
